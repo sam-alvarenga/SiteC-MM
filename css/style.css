@@ -75,13 +75,21 @@
 
 .login {
     color: #fff;
+    display: flex;
 }
 
+.login p{
+    color: white;
+    text-decoration: none;
+    margin-top: 25px;
+  
+   
+}
 .login a {
     color: white;
     text-decoration: none;
     padding: 20px;
-
+    font-size: 30px;
 }
 
 /* Menu */
@@ -129,54 +137,103 @@
     color: #FB1C1C;
 }
 
+/* fim header */
+
+/* Inicio main */
 .information {
+     border: 1px solid red; 
+    display: flex;
+    text-transform: uppercase;
+    justify-content: space-around;
+    position: relative;
+   
+
+.frete {
+    background-color: #FB1C1C;
+    padding: 10px;
+    text-align: center;
+}
+
+.frete i {
+   color: #fff;
+   font-size: 50px; 
+   margin-top: 20px;
+}
+
+.frete h4 {
+    color: #fff;
+    font-size: 30px;
     padding: 20px;
 }
-.information ul{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 20px 20px;
-    padding: 40px;
+
+.frete p {
+    color: #fff;
+    font-size: 12px;
+    position: absolute;
+    bottom: 0px;
 }
 
-.information ul li{
-    display: flex;
+.entrega {
     background-color: #FB1C1C;
-    list-style: none;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.entrega i {
+    font-size: 50px; 
+    margin-top: 20px;
+}
+
+.entrega h4 {
+    padding: 10px;
+    font-size: 25px;
+}
+
+.entrega p{
+    font-size: 12px;
+    position: absolute;
+    bottom: 0px; 
+}
+
+.cartao {
+    color: #fff;
+    background-color: #FB1C1C;
+    padding: 10px;
+    text-align: center;
+}
+
+.cartao i {
+ font-size: 50px;
+ margin-top: 25px;
+}
+
+.cartao h4 {
+    padding: 25px
+}
+
+.app {
+    color: #fff;
+    background-color: #FB1C1C;
+    padding: 10px;
+    text-align: center;
+}
+
+.app i {
+    font-size: 60px;
     padding: 30px;
-    width: 278px;
-    height: 174px;
-    position: relative;
     
 }
-.information ul li h4{
-    font-size: 20px;
-    color: #fff;
-    margin: 25px;
-    text-transform: uppercase;
-   
-  
-}
-.information ul li p {
-    font-size: 15px;
-    position: absolute;
-    bottom: 0;
-}
-.fa-truck-fast{
-    font-size: 50px;
-    margin: 15px;
-    color: #fff;
-}
-.fa-stopwatch{
-    font-size: 80px;
-}
-.fa-credit-card {
-    font-size: 50px;
-}
-.fa-mobile-screen-button{
-    font-size: 60px;
 
+.app h4 {
+   
+    font-size: 15px;
+    
 }
+
+
+
+
+
 
 
