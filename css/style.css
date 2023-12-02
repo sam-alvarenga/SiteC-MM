@@ -81,7 +81,7 @@
     color: white;
     text-decoration: none;
     padding: 20px;
-   
+
 }
 
 /* Menu */
@@ -89,44 +89,94 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+
 }
 
 .cep {
     display: flex;
     flex-wrap: wrap;
-    padding: 10px;
-    height: 100px;
-    border: 1px solid red
+    margin: 15px 20px;
+
 }
 
-.cep p {
-    margin-left: 10px;
+.cep-btn input {
+    width: 160px;
+    padding: 5px;
+
 }
 
-.menu-inf ul {
+.fa-location-dot {
+    padding-right: 10px;
+    font-size: 20px;
+
+}
+
+.catalog {
     display: flex;
     flex-wrap: wrap;
+    margin: 0 150px;
     font-size: 29px;
-    justify-content: space-around;
-    width: 50%;
-    margin: 0 auto;
-    list-style: none;
-    border: 1px solid red
-    
+
 }
 
-.menu-inf span {
+.catalog h3 {
+    padding: 0 70px;
+    margin: 0 auto;
+}
+
+
+.catalog h3 span {
     color: #FB1C1C;
 }
 
-.information{
+.information {
+    padding: 20px;
+}
+.information ul{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
-    margin-top: 50px;
-    border: 1px solid red
+    margin: 20px 20px;
+    padding: 40px;
 }
 
-
+.information ul li{
+    display: flex;
+    background-color: #FB1C1C;
+    list-style: none;
+    padding: 30px;
+    width: 278px;
+    height: 174px;
+    position: relative;
+    
+}
+.information ul li h4{
+    font-size: 20px;
+    color: #fff;
+    margin: 25px;
+    text-transform: uppercase;
    
+  
+}
+.information ul li p {
+    font-size: 15px;
+    position: absolute;
+    bottom: 0;
+}
+.fa-truck-fast{
+    font-size: 50px;
+    margin: 15px;
+    color: #fff;
+}
+.fa-stopwatch{
+    font-size: 80px;
+}
+.fa-credit-card {
+    font-size: 50px;
+}
+.fa-mobile-screen-button{
+    font-size: 60px;
+
+}
 
 
