@@ -272,11 +272,6 @@
     margin: 20px;
 }
 
-.launch i {
-    background-color: #9D9797;
-    padding: 10px;
-}
-
 .news-inf {
     display: flex;
     flex-wrap: wrap;
