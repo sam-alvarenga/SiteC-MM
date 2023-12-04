@@ -176,42 +176,42 @@
     bottom: 0px;
 }
 
-.entrega {
+.delivery {
     background-color: #FB1C1C;
     color: #fff;
     padding: 20px;
     text-align: center;
 }
 
-.entrega i {
+.delivery i {
     font-size: 50px;
     margin-top: 20px;
 }
 
-.entrega h4 {
+.delivery h4 {
     padding: 10px;
     font-size: 25px;
 }
 
-.entrega p {
+.delivery p {
     font-size: 12px;
     position: absolute;
     bottom: 0px;
 }
 
-.cartao {
+.card {
     color: #fff;
     background-color: #FB1C1C;
     padding: 10px;
     text-align: center;
 }
 
-.cartao i {
+.card i {
     font-size: 50px;
     margin-top: 25px;
 }
 
-.cartao h4 {
+.card h4 {
     padding: 25px
 }
 
@@ -232,6 +232,7 @@
     font-size: 15px;
 }
 
+/* inicio banner */
 .banner {
     display: flex;
     align-items: center;
@@ -259,17 +260,21 @@
     right: 13px;
 }
 
+/*  banner lançamento */
 .news {
     display: flex;
     justify-content: center;
-    
 }
 
 .launch h2 {
     font-size: 30px;
     text-align: center;
     margin: 20px;
+}
 
+.launch i {
+    background-color: #9D9797;
+    padding: 10px;
 }
 
 .news-inf {
@@ -278,24 +283,19 @@
     justify-content: space-around;
     align-items: center;
     padding: 10px;
-    
 }
 
-.launch i{
-   background-color:#9D9797;
-   padding: 10px;
-   
-   
-}
-    
-.promo p{ 
+.promo p {
     text-align: center;
 }
 
 .promo img {
-    Width:200px;
+    Width: 200px;
     height: 200px;
     background-color: #9D9797;
-    margin-left: 10px; 
+    margin-left: 10px;
 }
 
+.news-inf i {
+   
+}
