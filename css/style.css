@@ -78,13 +78,14 @@
     display: flex;
 }
 
-.login p{
+.login p {
     color: white;
     text-decoration: none;
     margin-top: 25px;
-  
-   
+
+
 }
+
 .login a {
     color: white;
     text-decoration: none;
@@ -141,12 +142,14 @@
 
 /* Inicio main */
 .information {
-     border: 1px solid red; 
+    /* border: 1px solid red; */
     display: flex;
     text-transform: uppercase;
     justify-content: space-around;
     position: relative;
-   
+    margin-top: 35px;
+}
+
 
 .frete {
     background-color: #FB1C1C;
@@ -155,9 +158,9 @@
 }
 
 .frete i {
-   color: #fff;
-   font-size: 50px; 
-   margin-top: 20px;
+    color: #fff;
+    font-size: 50px;
+    margin-top: 20px;
 }
 
 .frete h4 {
@@ -181,7 +184,7 @@
 }
 
 .entrega i {
-    font-size: 50px; 
+    font-size: 50px;
     margin-top: 20px;
 }
 
@@ -190,10 +193,10 @@
     font-size: 25px;
 }
 
-.entrega p{
+.entrega p {
     font-size: 12px;
     position: absolute;
-    bottom: 0px; 
+    bottom: 0px;
 }
 
 .cartao {
@@ -204,8 +207,8 @@
 }
 
 .cartao i {
- font-size: 50px;
- margin-top: 25px;
+    font-size: 50px;
+    margin-top: 25px;
 }
 
 .cartao h4 {
@@ -222,18 +225,77 @@
 .app i {
     font-size: 60px;
     padding: 30px;
-    
+
 }
 
 .app h4 {
-   
     font-size: 15px;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.fa-chevron-left {
+    font-size: 52px;
+    background-color: rgba(145, 145, 145, 0.322);
+    position: absolute;
+}
+
+.banner-inf img {
+    width: 1555px;
+    height: 305px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.fa-chevron-right {
+    font-size: 52px;
+    background-color: rgba(145, 145, 145, 0.322);
+    position: absolute;
+    right: 13px;
+}
+
+.news {
+    display: flex;
+    justify-content: center;
     
 }
 
+.launch h2 {
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
 
+}
 
+.news-inf {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    
+}
 
+.launch i{
+   background-color:#9D9797;
+   padding: 10px;
+   
+   
+}
+    
+.promo p{ 
+    text-align: center;
+}
 
-
+.promo img {
+    Width:200px;
+    height: 200px;
+    background-color: #9D9797;
+    margin-left: 10px; 
+}
 
