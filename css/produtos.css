@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.top {
+    display: flex;
+    background-color: #FB1C1C;
+    justify-content: space-around;
+    height: 70px;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logo h2 {
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 20px;
+
+}
+
+.search input {
+    width: 412px;
+    height: 40px;
+    padding: 10px;
+}
+
+.fa-magnifying-glass {
+    color: #FB1C1C;
+    margin-left: -45px;
+}
+
+.atendimento {
+    display: flex;
+}
+
+.fa-headset {
+    color: #fff;
+
+}
+
+.atendimento a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 15px;
+
+}
+
+.whatsapp {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.whatsapp a {
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    padding-left: 5px;
+}
+
+.fa-whatsapp {
+    color: #fff;
+}
+
+.login {
+    display: flex;
+    color: #fff;
+    padding: 10px;
+}
+
+.login p {
+    text-decoration: none;
+    padding: 10px;
+
+}
+
+.login a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 25px;
+}
+
+/* inicio menu */
+.cep {
+    display: flex;
+    margin: 15px 20px;
+}
+
+.cep-btn input {
+    width: 160px;
+    padding: 5px;
+}
+
+.fa-location-dot {
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+.catalog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 150px;
+    font-size: 29px;
+}
+
+.catalog h3 {
+    padding: 0 70px;
+}
+
+.catalog span {
+    color: #FB1C1C;
+}
+
+.item {
+    display: flex;
+    list-style: none;
+}
+
+.item li {
+    padding: 10px;
+    margin: 10px;
+    font-size: 15px;
+}
+
+.item a {
+    color: black;
+}
+
+/* inicio section look */
+.look-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.look-container img {
+    background-color: #9D9797;
+    width: 450px;
+    height: 450px;
+    margin: 0 20px;
+}
+
+.avaliacao{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.avaliacao i {
+
+}
+
+
