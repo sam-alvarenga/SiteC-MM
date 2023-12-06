@@ -262,8 +262,8 @@
 
 /*  banner lançamento */
 .news {
-    display: flex;
     justify-content: center;
+    position: relative;
 }
 
 .launch h2 {
@@ -272,25 +272,63 @@
     margin: 20px;
 }
 
-.news-inf {
+.promocoes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     padding: 10px;
+    
 }
-
+.promo{
+    position: relative;
+    text-align: center;
+}
 .promo p {
     text-align: center;
 }
 
 .promo img {
-    Width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     background-color: #9D9797;
-    margin-left: 10px;
+    
 }
 
-.news-inf i {
-   
+.promo i {
+    position: absolute;
+    right: 0;
+      
+}
+
+.fa-chevron-left {
+    position: absolute;
+    left: 20px;
+    margin-bottom: 75px;
+
+
+}
+
+.fa-chevron-right {
+    position: absolute;
+    right: 20px;
+    margin-bottom: 75px;
+}
+
+footer {
+    background-color: #FB1C1C;
+    padding: 50px;
+}
+
+.sobre {
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    margin-top: 90px;
+}
+
+.sobre li {
+    list-style: none;
+    padding-top: 15px;
+
 }
