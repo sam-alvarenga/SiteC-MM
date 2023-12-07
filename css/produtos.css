@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+/* Topo */
 .top {
     display: flex;
     background-color: #FB1C1C;
@@ -43,6 +44,7 @@
 
 }
 
+/* Atendimento e Contado */
 .atendimento a {
     text-decoration: none;
     color: #fff;
@@ -86,6 +88,8 @@
     font-size: 25px;
 }
 
+/* /*  Fim Topo */
+
 /* inicio menu */
 .cep {
     display: flex;
@@ -102,6 +106,7 @@
     font-size: 20px;
 }
 
+/* Sessão generos catalago*/
 .catalog {
     display: flex;
     flex-wrap: wrap;
@@ -118,7 +123,9 @@
     color: #FB1C1C;
 }
 
-   
+/* Fim generos catalago */
+
+/* Inicio item */
 .item ul {
     display: flex;
     list-style: none;
@@ -126,6 +133,7 @@
 
 
 }
+
 .item ul li {
     padding: 10px;
     margin: 10px;
@@ -136,11 +144,13 @@
     color: black;
 }
 
+/* Fim item */
+
 /* inicio section look */
 
 .look-inf-container {
     display: flex;
-    
+
 }
 
 .look-container {
@@ -159,28 +169,29 @@
 
 .looks2 img {
     position: absolute;
-    background-color: #9D979733;
+    background-color: #9d979720;
     left: 60px;
     top: 50px;
 }
 
 .looks3 img {
     position: absolute;
-    background-color: #9D979733;
+    background-color: #9D979720;
     top: 200px;
     left: 60px;
 }
 
-/* fim look-inf-container*/
+/* fim look*/
 
-.inf{
+/* Inicio Inf*/
+.inf {
     margin-left: 25px;
     line-height: 50px;
 }
 
 .look-inf {
     display: flex;
-    
+
 }
 
 .look-inf h2 {
@@ -192,6 +203,8 @@
     margin-left: 30px;
     font-size: 30px;
 }
+
+/* Inicio Inf */
 
 /* .avalicao */
 .avaliacoes {
@@ -212,16 +225,48 @@
 
 /* fim avalicoes */
 
-/* preco */
+/* Inicio Preco */
 .preco h3 {
     font-size: 1.75em;
     margin-top: 15px;
 }
 
-.preco p{
-    font-size: 1.25em;  
+.preco p {
+    font-size: 1.25em;
 }
 
-.preco img{
-    background-color: ;
+.preco span {
+    color: #FB1C1C;
+}
+
+.preco img {
+    width: 60px; 
+    height: 60px; 
+    background-color: #9d979721;
+    border-radius: 50%;
+    border: 1px solid #FB1C1C;
+}
+
+/* Fim preco */
+
+/* inicio tamanhos */
+
+.tamanhos {
+    display: flex;
+    text-decoration: none;
+}
+/* .tamanhos span{
+    border: 1px solid #FB1C1C;
+    border-radius: 50%;
+    width: 43px;
+    height: 44px; */
+    
+
+.tamanhos p {
+    width: 43px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: #c4c4c450;
+    text-align: center;
+    margin: 0 5px 5px;
 }
