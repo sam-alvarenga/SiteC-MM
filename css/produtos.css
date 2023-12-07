@@ -31,7 +31,7 @@
 
 .fa-magnifying-glass {
     color: #FB1C1C;
-    margin-left: -45px;
+    margin: -45px;
 }
 
 .atendimento {
@@ -118,12 +118,15 @@
     color: #FB1C1C;
 }
 
-.item {
+   
+.item ul {
     display: flex;
     list-style: none;
-}
+    margin: 40px 30px;
 
-.item li {
+
+}
+.item ul li {
     padding: 10px;
     margin: 10px;
     font-size: 15px;
@@ -134,25 +137,91 @@
 }
 
 /* inicio section look */
-.look-container{
+
+.look-inf-container {
     display: flex;
-    flex-wrap: wrap;
+    
 }
 
-.look-container img {
-    background-color: #9D9797;
-    width: 450px;
-    height: 450px;
-    margin: 0 20px;
+.look-container {
+    position: relative;
 }
 
-.avaliacao{
+.looks img {
+    margin-left: 30px;
+    background-color: #9D979733;
+}
+
+.search {
+    margin: 40px -70px;
+    font-size: 30px;
+}
+
+.looks2 img {
+    position: absolute;
+    background-color: #9D979733;
+    left: 60px;
+    top: 50px;
+}
+
+.looks3 img {
+    position: absolute;
+    background-color: #9D979733;
+    top: 200px;
+    left: 60px;
+}
+
+/* fim look-inf-container*/
+
+.inf{
+    margin-left: 25px;
+    line-height: 50px;
+}
+
+.look-inf {
     display: flex;
-    flex-wrap: wrap;
+    
 }
 
-.avaliacao i {
-
+.look-inf h2 {
+    font-size: 40px
 }
 
 
+.fa-heart {
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+/* .avalicao */
+.avaliacoes {
+    border: 1px solid red;
+    margin-left: 5px;
+
+}
+
+.avaliacoes a {
+    color: #FB1C1C;
+    margin-left: 20px;
+}
+
+.fa-share-nodes {
+    margin-left: 664px;
+    font-size: 25px;
+}
+
+/* fim avalicoes */
+
+/* preco */
+.preco h3 {
+    font-size: 1.75em;
+    margin-top: 15px;
+}
+
+.preco p{
+    font-size: 1.25em;  
+}
+
+.preco img{
+    background-color: ;
+}
