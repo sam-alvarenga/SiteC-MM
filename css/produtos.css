@@ -186,7 +186,7 @@
 /* Inicio Inf*/
 .inf {
     margin-left: 25px;
-    line-height: 50px;
+    line-height: 40px;
 }
 
 .look-inf {
@@ -207,11 +207,7 @@
 /* Inicio Inf */
 
 /* .avalicao */
-.avaliacoes {
-    border: 1px solid red;
-    margin-left: 5px;
-
-}
+.avaliacoes {}
 
 .avaliacoes a {
     color: #FB1C1C;
@@ -219,7 +215,7 @@
 }
 
 .fa-share-nodes {
-    margin-left: 664px;
+    margin-left: 644px;
     font-size: 25px;
 }
 
@@ -240,8 +236,8 @@
 }
 
 .preco img {
-    width: 60px; 
-    height: 60px; 
+    width: 60px;
+    height: 60px;
     background-color: #9d979721;
     border-radius: 50%;
     border: 1px solid #FB1C1C;
@@ -255,12 +251,14 @@
     display: flex;
     text-decoration: none;
 }
+
 /* .tamanhos span{
     border: 1px solid #FB1C1C;
     border-radius: 50%;
     width: 43px;
     height: 44px; */
-    
+
+
 
 .tamanhos p {
     width: 43px;
@@ -269,4 +267,113 @@
     background-color: #c4c4c450;
     text-align: center;
     margin: 0 5px 5px;
+}
+
+/* Compras */
+
+.delivery input {
+    width: 213px;
+    height: 28px;
+    font-weight: bolder;
+    background-color: #C4C4C430;
+    border: none;
+    padding: 10px;
+}
+
+button {
+    width: 54px;
+    height: 28px;
+    border: none;
+    background-color: #C4C4C450;
+}
+
+.buy {
+    padding: 15px 0;
+}
+
+.buy a {
+    background-color: red;
+    color: #fff;
+    font-size: 25px;
+    margin-right: 20px;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.fa-bag-shopping a {
+    font-size: 24px;
+    padding: 10px;
+}
+
+/* Prazo de entrega */
+.prazo p {}
+
+.prazo span {
+    color: #FB1C1C;
+}
+
+.prazo a {
+    color: #575353;
+    margin: 0 5px;
+}
+
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 55px;
+
+}
+
+.produtosextras {
+    position: relative;
+    text-align: center;
+    background-color: #9D979740;
+    margin: 13px 30px;
+    width: 106px;
+    height: 103px;
+}
+
+
+.produtosextras i {
+    position: absolute;
+    font-size: 20px;
+    right: 5px;
+    color: #FB1C1C;
+
+
+}
+
+.produtosextras img {
+    margin: 0 auto;
+
+}
+
+.saia {
+    margin-top: 20px;
+}
+
+}
+
+.preco1 {
+    font-weight: bolder;
+
+}
+
+footer {
+
+    background-color: #FB1C1C;
+    padding: 50px;
+}
+
+.sobre {
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    margin-top: 90px;
+}
+
+.sobre li {
+    list-style: none;
+    padding-top: 15px
 }
